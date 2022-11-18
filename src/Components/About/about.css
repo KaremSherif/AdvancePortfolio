@@ -1,0 +1,30 @@
+.about-container{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.about-img{
+    width: 350px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.about-info{
+    grid-template-columns: repeat(3 , 170px);
+    gap: .5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about-box{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.about-icon{
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-05);
+}
+
