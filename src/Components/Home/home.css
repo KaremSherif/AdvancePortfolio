@@ -54,7 +54,7 @@
     margin-bottom: var(--mb-3);
 }
 .home-img{
-    background: url(../../images/photo1.jpg);
+    background: url(../../images/about-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,10 +70,11 @@
 .home-scroll{
     margin-left: 9.5rem;
     user-select: none;
-    position: relative;
-    left: 50%;
-    top: 70%;
-    transform: translateX(-30%);
+    padding-left: 28%;
+    /* position: relative; */
+    /* left: 50%; */
+    /* top: 70%; */
+    /* transform: translateX(32%); */
 }
 
 .wheel{
@@ -175,6 +176,10 @@
   }
   /* Small Devices */
   @media  screen and (max-width: 380px) {
+
+    .home-title{
+        font-size: 2.5rem;
+    }
     .home-img{
         width: 180px;
         height: 180px;

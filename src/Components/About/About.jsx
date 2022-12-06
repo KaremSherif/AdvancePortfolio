@@ -1,7 +1,7 @@
 import React from 'react';
 import Info from './Info.jsx'
 import "./about.css";
-import Aboutimg from "../../images/photo1.jpg"
+import Aboutimg from "../../images/about-img.jpg"
 import CV from "../../images/John-Cv.pdf"
 const About = () => {
   return (
@@ -11,8 +11,9 @@ const About = () => {
 
       <div className="about-container container grid">
         
-        <img src={Aboutimg} className="about-img" alt="NA" />
+      <img src={Aboutimg} className="about-img" alt="NA" />
 
+       
         <div className="about-data">
           <Info />
 
