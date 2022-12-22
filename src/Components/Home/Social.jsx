@@ -7,27 +7,30 @@ const Social = () => {
         href="https://www.instagram.com/direct/inbox/"
         className="home-social-icon"
         target="_blank"
+        rel="noreferrer"
         title="Facebook"
       >
-        <i class="uil uil-instagram"></i>
+        <i className="uil uil-instagram"></i>
       </a>
 
       <a
         href="https://github.com/KaremSherif"
         className="home-social-icon"
         target="_blank"
+        rel="noreferrer"
         title="Github"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
 
       <a
         href="https://www.linkedin.com/in/karem-sherif-2002bd/"
         className="home-social-icon"
         target="_blank"
+        rel="noreferrer"
         title="Linkedin"
       >
-        <i class="uil uil-linkedin-alt"></i>
+        <i className="uil uil-linkedin-alt"></i>
       </a>
     </div>
   );
